@@ -21,7 +21,7 @@ public interface WebConfig extends Config {
     String browserSize();
 
     @Key("browser_version")
-    @DefaultValue("${browserVersion}")
+    @DefaultValue("127")
     String browserVersion();
 
     @Key("remoteUrl")

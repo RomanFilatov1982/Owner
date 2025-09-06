@@ -9,19 +9,15 @@ import org.aeonbits.owner.Config;
 public interface WebConfig extends Config {
 
     @Key("baseUrl")
-    @DefaultValue("https://github.com")
     String baseUrl();
 
     @Key("browser")
-    @DefaultValue("chrome")
     String browser();
 
     @Key("browser_size")
-    @DefaultValue("1440x900")
     String browserSize();
 
     @Key("browser_version")
-    @DefaultValue("${browserVersion}")
     String browserVersion();
 
     @Key("remoteUrl")
